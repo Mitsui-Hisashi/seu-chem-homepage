@@ -1,18 +1,18 @@
 /* 导航栏相关效果 */
-.navbar { width:100%; min-width:1200px; height:40px; background:#0c4eb0;position: relative;  z-index: 9999;}   	/**导航区域背景**/
+.navbar { width:100%; min-width:1200px; height:40px; background:#d1d1d1;position: relative;  z-index: 9999;}   	/**导航区域背景**/
 .navbar .navbox { width:1200px; height:40px; margin:0 auto;}   /**导航窗口大小及位置**/
 .wp_nav { display: flex !important; justify-content: center !important;padding-left:6px;}
 .wp_nav .nav-item { height:40px; width:128px;}
-.wp_nav .nav-item a span.item-name { color:white; padding:0; font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;}
+.wp_nav .nav-item a span.item-name { color:black; padding:0; font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;}
 #wp_nav_w2 .wp_nav .nav-item a span.item-name {line-height:40px;}
 .wp_nav .nav-item a.parent {}
 .wp_nav .nav-item a { font-size:14px;}
 .wp_nav .sub-nav .nav-item a.parent span.item-name { width:71%; background:#fff; font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item { height:34px;}
 #wp_nav_w2 .wp_nav .nav-item a.parent:hover { background:#fff;}
-#wp_nav_w2 .wp_nav .nav-item a.parent:hover span.item-name { color:#003054;}
+#wp_nav_w2 .wp_nav .nav-item a.parent:hover span.item-name { color:#232868;}
 #wp_nav_w2 .wp_nav .sub-nav { min-width:108px !important; border:none;}
-#wp_nav_w2 .wp_nav .sub-nav .nav-item .mark { background:#0373ce; opacity:0.8; filter:alphy(opcity="80");}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item .mark { background:#232868; opacity:0.8; filter:alphy(opcity="80");}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a { border:none; text-align:center;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a span.item-name { padding:6px 16px; color:white; line-height:22px;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a.parent:hover { background:#fff;}
@@ -24,4 +24,4 @@
 #wp_nav_w9 .wp_nav .nav-item { width:auto; height:50px; line-height:50px; background:url(../images/w9.png) 0px 18px; background-repeat:no-repeat;}
 #wp_nav_w9 .wp_nav .i1 { background:none;}
 #wp_nav_w9 .wp_nav .nav-item a { font-size:14px;}
-#wp_nav_w9 .wp_nav .nav-item a span.item-name { color:#0c4eb0; line-height:50px; padding:0px 16px;}
+#wp_nav_w9 .wp_nav .nav-item a span.item-name { color:#232868; line-height:50px; padding:0px 16px;}

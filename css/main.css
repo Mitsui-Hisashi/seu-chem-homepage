@@ -5,13 +5,13 @@ body {
 #banner {
   width: 100%;
   min-width: 1200px;
-  height: 173px;
-  background-color: #327be4;
-  background-size: 1200px 175px;
+  height: 180px;
+  background-color: #0a123d;
+  background-size: 1200px 180px;
 }
 #banner-img {
-  width: 1000px;
-  height: 175px;
+  width: 1100px;
+  height: 180px;
 }
 
 
@@ -29,7 +29,14 @@ body {
   color: #ffffff;
 }
 
+.tzgg-list{
+  margin:10px;
+}
 
+.tzgg-list a {
+  color: #000;
+  text-decoration: none;
+}
 #main-content {
   width:100%;
   min-width:1200px;
@@ -63,29 +70,61 @@ body {
   flex-direction: column;
   align-items: stretch;
 }
+
+.sider-panel .title-first {
+  background-color: #232868;
+  text-align: center;
+  color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.sider-panel .content-first {
+  background-color:#f0f0f0;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+
+
 .sider-panel .title {
-  background-color: #2f7ee5;
+  background-color: #232868;
   text-align: center;
   color: #ffffff;
   height: 40px;
   line-height: 40px;
 }
+
+
+
 .sider-panel .content {
-  padding: 20px 20px;
   background-color:#f0f0f0;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  height: 40px;
 }
-.sider-panel .content img {
-  align-self: center;
-  width: 100px;
-  margin: 0 26px;
-}
-.sider-panel .content .text {
-  font-size: 12px;
+
+.sider-panel .content-special {
+  background-color:#f0f0f0;
+  font-size: 14px;
   line-height: 20px;
+  text-align: center;
+  color: #000000;
+  height: 40px;
+  padding: 10px 0px;
+
 }
-.sider-panel .content .text a {
-  color: #4ab0db;
-}
+
 
 .main-group {
   width: 100%;
@@ -117,7 +156,7 @@ body {
   color:#000;
   font-size:17px;
   height: 34px;
-  border-bottom: 3px solid #2f7ee5;
+  border-bottom: 3px solid #232868;
   float: left;
 }
 
@@ -210,10 +249,10 @@ body {
 }
 #bottom {
 
-  height: 135px;
+  height: 165px;
   width:100%;
   min-width: 1200px;
-  background-color: #9da9bf;
+  background-color: #232868;
 
 }
 
@@ -238,6 +277,8 @@ body {
   float: left;
   line-height: 1.8;
   margin-top:20px;
+  text-decoration: none;
+  margin-left: 40px;
 }
 
 #bottom #wx {
@@ -245,13 +286,15 @@ body {
   color: #ffffff;
   padding-right: 15px;
   float: right;
-  margin-top:48px;
+  margin-top:57px;
   font-weight: bold;
   text-align: right;
+  line-height: 1.8;
+
 }
 #bottom #qrcode {
   width: 80px;
-  margin-top:32px;
+  margin-top:40px;
   float: right;
   margin-right:20px;
 }
