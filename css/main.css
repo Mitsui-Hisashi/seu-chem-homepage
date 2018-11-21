@@ -6,7 +6,7 @@ body {
   width: 100%;
   min-width: 1200px;
   height: 162px;
-  background-color: #232c65;
+  background-color: #232d65;
   background-size: 1200px 162px;
 }
 #banner-img {
@@ -83,7 +83,7 @@ body {
 }
 
 .sider-panel .title-first {
-  background-color: #232868;
+  background-color: #232d65;
   text-align: center;
   color: #ffffff;
   height: 40px;
@@ -107,7 +107,7 @@ body {
 
 
 .sider-panel .title {
-  background-color: #232868;
+  background-color: #232d65;
   text-align: center;
   color: #ffffff;
   height: 40px;
@@ -167,7 +167,7 @@ body {
   color:#000;
   font-size:17px;
   height: 34px;
-  border-bottom: 3px solid #232868;
+  border-bottom: 3px solid #232d65;
   float: left;
 }
 
@@ -183,7 +183,7 @@ body {
   background-color: #f0f0f0;
   border-left-style: solid;
   border-left-width: 64px;
-  border-left-color: #232868;
+  border-left-color: #232d65;
   margin-bottom: 10px;
 }
 .news .news-panel {
@@ -263,7 +263,7 @@ body {
   height: 165px;
   width:100%;
   min-width: 1200px;
-  background-color: #232868;
+  background-color: #232d65;
 
 }
 
