@@ -10,6 +10,17 @@ body {
   background-color: #232d65;
   background-size: 1200px 162px;
 }
+
+
+#English-page{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  right:140px;
+  bottom:80px;
+  text-decoration: none;
+
+}
 #banner-img {
   width: 1100px;
   height: 162px;
