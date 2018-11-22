@@ -141,7 +141,7 @@ body {
 .sider-panel .content-first {
   background-color:#f0f0f0;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 25px;
   text-align: center;
   color: #ffffff;
   border-left: 1px solid #000;
@@ -163,7 +163,7 @@ body {
 
 .sider-panel .content {
   background-color:#f0f0f0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 40px;
   text-align: center;
   color: #000000;
@@ -172,7 +172,7 @@ body {
 
 .sider-panel .content-special {
   background-color:#f0f0f0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #000000;
