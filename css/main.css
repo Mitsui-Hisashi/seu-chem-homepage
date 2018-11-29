@@ -169,9 +169,13 @@ body {
   color: #000000;
   height: 40px;
 }
-#other-link{
+#content-link{
   text-decoration: none;
   color: #000;
+}
+#title-link{
+  text-decoration: none;
+  color:white;
 }
 
 .sider-panel .content-special {
