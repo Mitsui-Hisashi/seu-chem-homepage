@@ -441,10 +441,12 @@ body {
 }
 
 .wp_search .search{
-  height: 32px !important;
-  width: 32px !important;
+  height: 31px !important;
+  width: 31px !important;
   background: url('../asset/img/sous.png');
-  background-size: 32px 32px;
+  background-size: 31px 31px;
+  background-color: #fdd100;
+  padding: 0px 0px 4px 0px;
 }
 
 
