@@ -458,3 +458,6 @@ body {
   width:320px;
   height:200px;
 }
+td {
+  padding: 0px;
+}
