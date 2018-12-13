@@ -28,11 +28,7 @@ body {
 
 
 
-/*系统默认搜索
-.wp_search{ display:inline-block;position:absolute;padding-left:4px;border: 1px solid #d0d0d0;right:140px;bottom:32px;}
-.wp_search #keyword{ width:160px!important;padding: 4px 0; border:none;height:20px; line-height:20px; background:transparent; color:#fff; }
-.wp_search .search{width:32px;height: 30px;border:0px; background: #FFFFFF url(../asset/img/sous.png) no-repeat center;cursor: pointer; vertical-align:top; }*/
-/*自定义输入框*/
+/*搜索框，注意下面还有关于搜索框的代码*/
 .searchbox{text-align:right;margin-top:5px;position: absolute;right:140px;bottom:32px;}
 .wp-search {border: 1px solid #d0d0d0;}
 .wp-search form {display: block;}
@@ -45,48 +41,6 @@ body {
 .clearfix{ display: block; *zoom:1; }
 
 
-/*
-.wp-search {
-  position: absolute;
-  right:140px;
-  bottom:32px;
-  
-}
-.wp-search form {
-  display: block;
-}
-.wp-search .search-input {
-  background-color: white;
-  padding-left:4px; 
-  padding-right: 4px;
-}
-.wp-search .search-input input.search-title {
-  width: 100%;
-  height: 22px;
-  padding: 4px 0;
-  line-height: 22px;
-  background: none;
-  color: #FFFFFF;
-  font-size: 14px;
-  border:0;
-  outline: 0;}
-.wp-search .search-btn {
-  width:32px;
-  height: 32px;
-  position: absolute;
-  right: 0;
-  top:0%;
-}
-.wp-search .search-btn input.search-submit {
-  width:32px;
-  height: 30px;
-  border:0;
-  outline: 0;
-  background: #fdd100 url(../asset/img/sous.png) no-repeat center;
-  cursor: pointer;
-}
-
-*/
 
 #slider {
   width: 100%;
